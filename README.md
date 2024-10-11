@@ -79,16 +79,3 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 If you encounter any issues or have questions, please open an issue in this repository, and I will address it as soon as possible.
 
-```
-
-### Explanation:
-- **Overview**: Provides a quick introduction to what the script does.
-- **Features**: Outlines the key features of the script.
-- **How It Works**: Briefly explains how the script operates.
-- **Installation**: Step-by-step instructions on installing Tampermonkey and adding the script.
-- **Usage**: Describes how to use the script after installation.
-- **Customization**: Explains how to modify the script for different file types.
-- **Contributing**: Encourages users to contribute to the project.
-- **License**: Specifies that the project is under the MIT License.
-
-You can now save this content as `README.md` in your GitHub repository! Let me know if you need further adjustments.
