@@ -1,4 +1,4 @@
-# Extract and Download Blob URLs with Index from naturalreaders
+# Natural Readers Downloder
 
 ## Overview
 
@@ -55,3 +55,40 @@ You need to have [Tampermonkey](https://www.tampermonkey.net/) or a similar user
 // @match        https://www.naturalreaders.com/*
 // @grant        none
 // ==/UserScript==
+```
+
+## Customization
+
+You can customize the file extension or modify the filename by editing this line in the script:
+
+```javascript
+a.download = `file_${index}.mp3`;
+```
+
+You can change `.mp3` to another extension (e.g., `.png`, `.wav`) depending on the type of media you're downloading.
+
+## Contributing
+
+Feel free to fork this repository and submit pull requests with improvements, bug fixes, or new features.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Issues
+
+If you encounter any issues or have questions, please open an issue in this repository, and I will address it as soon as possible.
+
+```
+
+### Explanation:
+- **Overview**: Provides a quick introduction to what the script does.
+- **Features**: Outlines the key features of the script.
+- **How It Works**: Briefly explains how the script operates.
+- **Installation**: Step-by-step instructions on installing Tampermonkey and adding the script.
+- **Usage**: Describes how to use the script after installation.
+- **Customization**: Explains how to modify the script for different file types.
+- **Contributing**: Encourages users to contribute to the project.
+- **License**: Specifies that the project is under the MIT License.
+
+You can now save this content as `README.md` in your GitHub repository! Let me know if you need further adjustments.
